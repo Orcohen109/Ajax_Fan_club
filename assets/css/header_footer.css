@@ -1,0 +1,381 @@
+* {
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+        direction: ltr;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+h1, b, p, #api{font-family: sans-serif;}
+#firstp{text-align: center;}
+#playersimg{
+    height:40px;
+    width:40px;
+    margin-left:10px;
+}
+    #main_member{
+
+        background-color: #FFEFD5;
+        
+    }
+    h2, h3{
+        text-align: center;
+        font-family: sans-serif;
+    }
+    h3, #firstH2{
+        margin-bottom: 4%;
+        font-family: sans-serif;    
+    }
+    label, #button{
+        margin-left: 2%;
+        font-family: sans-serif;
+       
+    }
+    #buttuson{
+        margin-bottom: 2%;
+        font-family: sans-serif;
+    
+    }
+
+#playerstitle{
+    
+    text-align: center;
+    margin-right: 9%;
+    margin-top: 50px;
+
+}
+#myInput{
+    margin-left: 40%;
+    direction: rtl;
+    background-color:#f0eee1;
+}
+
+#ajax2020tables1{
+    text-align: right;
+    direction: rtl;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+table, th, td {
+            border: 1px solid black;
+            font-size:20px;
+            text-align: center;
+        }
+        th{
+            font-size:25px;
+        }
+
+table{margin-bottom:5%;width:100%;}  
+#wrapper{
+    width:100%;
+    margin:auto;
+    overflow:auto;
+    margin-bottom:4%;
+}	
+#searchWrraper{
+    width:100%;
+    margin:auto;
+    overflow:auto;
+    margin-top:4%;
+    margin-bottom:4%;
+}	
+label{
+    float:left;
+    width:40%;
+}
+#headerimg{
+    width:100%;
+    height:30vh;   
+}
+h1{
+    margin-bottom:1%;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+main{
+    width:60%;background-color: #f2daf2;
+    margin:auto;
+    margin-bottom:3%;
+    overflow:auto;
+    padding-top:2%;
+}
+#mainWrraper{
+    width:70%;margin:auto;}
+
+nav{
+	padding-top:0.5%;
+	font-size:20px;
+	width:100%;
+	float:left;
+	height:80px;
+	background-color: #D3F2F0;
+        margin-bottom: 50px;
+}
+ul{
+	list-style-type:none;
+	width: 80%;
+	margin-left:3%;
+	overflow:auto;
+        
+}
+li{
+	float:left;
+	width:14%;
+	margin-top:15px;
+}
+#selected{color:#cc0000;font-weight:bold;}
+a{
+	text-decoration:none;
+	color:black;
+}
+#api
+{  
+    clear: both;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#api:hover
+{
+    font-size: 150%;
+}
+#logout
+{
+    width:20%;
+    margin:auto;
+    font-size:20px;
+}
+#register
+{
+    float:left;
+    width:30%;
+    margin-left:2%;
+}		
+#firstp
+{
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 3%;
+    display:inline-block;
+    width: 70%;
+    float:left;
+}
+#homepageimg
+{
+    display:inline-block;
+    height: 300px;
+    width: 20%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+footer
+{
+    clear: both;
+    width:100%;
+    margin:auto;
+    background-color: #ffcccc;
+    text-align:center;
+    padding:1%;
+    margin-top: 5%;
+}
+#about{
+    text-align: right;
+}
+.logo
+{
+    float:left;
+}
+
+.api
+{
+    margin: auto;
+    clear: both;
+    width: 20%;
+    
+}
+#api
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+#button{
+    display: flex;
+    justify-content: center;
+}
+
+#showpay{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    position: relative;
+    left:15%;
+    margin-top:7%;
+    
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+
+.container {
+  background-color: #FFEFD5;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+.pay {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+
+    main{
+        background-color: white;
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 2%;
+        font-family: sans-serif;
+    }
+    form{
+        background-color: #FFEFD5;
+        margin-bottom: 1%;
+    }
+    tr:nth-child(even){background-color: #f2f2f2; font-family: sans-serif;}
+
+        th {
+        background-color:darkgray;
+        color: black;
+        font-family: sans-serif;
+        }
+        td{
+            font-family: sans-serif;
+        }
+        label{
+            font-family: sans-serif;
+        }
+    .homepageimg{
+          position: relative;
+          left: 450px;  
+          width: 30%
+    }
+    #us{
+        background-color: white;
+        
+    }
+    #about{
+        margin-bottom: 3%;
+        font-family: sans-serif; 
+        
+    }
+
+    #piechart
+    {
+        margin-left: 5%;
+        height: 600px;
+        margin-top:5%;
+        width: 40%;
+        float:left;
+    }
+    .statisticTable
+    {
+        margin-top: 10%;
+        width: 40%;
+        float:left;
+    }
+        tr:nth-child(even){background-color: #f2f2f2; font-family: sans-serif;}
+
+        th {
+        background-color:darkgray;
+        color: black;
+        font-family: sans-serif;
+        }
+        td{font-family: sans-serif;}
+        #ball{
+            width:4%;
+        }
+             footer{
+       background-color:#dcdcdc;
+        font-family: sans-serif;
+        }
+        .logo{
+            position: relative;
+            bottom: 5px;
+            
+            margin:auto;
+        }
+      
